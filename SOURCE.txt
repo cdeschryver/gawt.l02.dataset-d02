@@ -1,0 +1,6 @@
+Quelle:
+Statistisches Bundesamt, Datenportal "Genesis"
+https://www-genesis.destatis.de
+
+Bevölkerung Deutschland seit 1950: https://www-genesis.destatis.de/genesis/online?operation=previous&levelindex=4&levelid=1665392517322&levelid=1665392501113&step=3#abreadcrumb
+hier besondere Fehlerquelle: bis 1989 Zahlen ohne DDR

@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?><genml:GENESIS xmlns:genml="https://www-genesis.destatis.de/xml/GENESIS-ML_V0_3" NAME="12411-0001"><genml:DISPLAY-DATA><genml:LABELS><genml:LABEL NAME="UEBERSCHRIFT" POSITION="" VISIBILITY="true"><genml:LEVEL>0</genml:LEVEL><genml:TYPE>UNDEF</genml:TYPE></genml:LABEL><genml:LABEL NAME="12411-0001TITLE" POSITION="" VISIBILITY="true"><genml:CAPTION><genml:TEXT LANG="en" FORMAT="text/plain">Population: Germany, reference date</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Bevölkerung: Deutschland, Stichtag</genml:TEXT></genml:CAPTION><genml:LEVEL>0</genml:LEVEL><genml:TYPE>TITLE</genml:TYPE></genml:LABEL><genml:LABEL NAME="12411-0001FOOTNOTE" POSITION="" VISIBILITY="true"><genml:CAPTION><genml:TEXT LANG="en" FORMAT="text/plain">Until 1989: Former territory of the Federal Republic.
+
+From 2011: Results based on the 2011 Census.</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Bis 1989: Früheres Bundesgebiet
+
+Ab 2011: Ergebnisse auf Grundlage des Zensus 2011.</genml:TEXT></genml:CAPTION><genml:LEVEL>0</genml:LEVEL><genml:TYPE>FOOTNOTE</genml:TYPE></genml:LABEL></genml:LABELS><genml:LABEL-ASSOC><genml:ASSOCIATION NAME="UEBERSCHRIFT"><genml:ELEMENT><TYPE>STRUCTURE</TYPE><NAME>12411-0001</NAME></genml:ELEMENT></genml:ASSOCIATION><genml:ASSOCIATION NAME="12411-0001FOOTNOTE"><genml:ELEMENT><TYPE>STRUCTURE</TYPE><NAME>12411-0001</NAME></genml:ELEMENT></genml:ASSOCIATION><genml:ASSOCIATION NAME="12411-0001TITLE"><genml:ELEMENT><TYPE>STRUCTURE</TYPE><NAME>12411-0001</NAME></genml:ELEMENT></genml:ASSOCIATION></genml:LABEL-ASSOC><genml:STRUCTURES><genml:STRUCTURE NAME="12411-0001" EXTRACTED="2022-10-10T11:10:05" MODIFIED="2015-10-14T15:10:43" CREATED="2002-04-17T12:04:40"><genml:TRANSPOSE>Y</genml:TRANSPOSE><genml:STRUCTRUE-CHANGEABLE>CHANGEABLE</genml:STRUCTRUE-CHANGEABLE><genml:AXES><genml:AXIS POSITION="FILTER"><genml:STRUCTURE-ELEMENT NAME="12411" EXTRACTED="2022-10-10T11:10:05" TYPE="STATISTICS"><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION>ASC</genml:DIRECTION><genml:CRITERION></genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:STRUCTURE-ELEMENTS><genml:STRUCTURE-ELEMENT NAME="DINSG" EXTRACTED="2022-10-10T11:10:05" TYPE="VARIABLE" SELECTION="N"><genml:SELECTION NAME="DINSG1665392465594"></genml:SELECTION><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION></genml:DIRECTION><genml:CRITERION>KTX</genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:TITLE VISIBLE="N"><genml:TEXT LANG="en" FORMAT="text/plain">Germany</genml:TEXT><genml:TEXT LANG="fr" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT><genml:TEXT LANG="it" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT><genml:TEXT LANG="es" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="DINSG" TYPE="VARIABLE" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:MARK> </genml:MARK><genml:IDENT>130722</genml:IDENT><genml:NUMBER>2</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>SELECTION</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>TABLE_FILTER</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>REGION_CLASSIFYING_TOTAL</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW></genml:STRUCTURE-ELEMENT></genml:STRUCTURE-ELEMENTS><genml:TITLE VISIBLE="Y"><genml:TEXT LANG="en">Current updating of population figures</genml:TEXT><genml:TEXT LANG="fr">Fortschreibung des Bevölkerungsstandes</genml:TEXT><genml:TEXT LANG="it">Fortschreibung des Bevölkerungsstandes</genml:TEXT><genml:TEXT LANG="es">Fortschreibung des Bevölkerungsstandes</genml:TEXT><genml:TEXT LANG="de">Fortschreibung des Bevölkerungsstandes</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="12411" TYPE="ELEMENT" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:MARK> </genml:MARK><genml:IDENT>130720</genml:IDENT><genml:NUMBER>1</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>UNDEF</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>TABLE_FILTER</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>UNDEF</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW></genml:STRUCTURE-ELEMENT></genml:AXIS><genml:AXIS POSITION="SUBTITLE"></genml:AXIS><genml:AXIS POSITION="COLUMN-STRUCTURE"><genml:STRUCTURE-ELEMENT NAME="BEVSTD" EXTRACTED="2022-10-10T11:10:05" TYPE="VARIABLE"><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION></genml:DIRECTION><genml:CRITERION></genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:TITLE VISIBLE="Y"><genml:TEXT LANG="en" FORMAT="text/plain">Population</genml:TEXT><genml:TEXT LANG="fr" FORMAT="text/plain">Bevölkerungsstand</genml:TEXT><genml:TEXT LANG="it" FORMAT="text/plain">Bevölkerungsstand</genml:TEXT><genml:TEXT LANG="es" FORMAT="text/plain">Bevölkerungsstand</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Bevölkerungsstand</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="BEVSTD" TYPE="VARIABLE" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:OUTPUTFORMATS NAME="BEVSTD"><genml:OUTPUTFORMAT LANG="en"><genml:MEASURE-UNIT NAME="Anzahl"></genml:MEASURE-UNIT></genml:OUTPUTFORMAT><genml:OUTPUTFORMAT LANG="de"><genml:MEASURE-UNIT NAME="Anzahl"></genml:MEASURE-UNIT></genml:OUTPUTFORMAT></genml:OUTPUTFORMATS><genml:MARK> </genml:MARK><genml:IDENT>130783</genml:IDENT><genml:NUMBER>3</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>ALL</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>COLUMN_STRUCTURE</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>VALUE</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW></genml:STRUCTURE-ELEMENT></genml:AXIS><genml:AXIS POSITION="SECTION"></genml:AXIS><genml:AXIS POSITION="ROW-STRUCTURE"><genml:STRUCTURE-ELEMENT NAME="STAG" EXTRACTED="2022-10-10T11:10:05" TYPE="VARIABLE" SELECTION="N"><genml:SELECTION NAME="STAG25211922733619477"></genml:SELECTION><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION>ASC</genml:DIRECTION><genml:CRITERION>KTX</genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:TITLE VISIBLE="Y"><genml:TEXT LANG="en">Reference date</genml:TEXT><genml:TEXT LANG="fr">Stichtag</genml:TEXT><genml:TEXT LANG="it">Stichtag</genml:TEXT><genml:TEXT LANG="es">Stichtag</genml:TEXT><genml:TEXT LANG="de">Stichtag</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="STAG" TYPE="VARIABLE" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:MUTABLE-VARIABLES><genml:VARIABLE NAME="STAG"></genml:VARIABLE></genml:MUTABLE-VARIABLES><genml:MARK>a</genml:MARK><genml:IDENT>130784</genml:IDENT><genml:NUMBER>4</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>ALL</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>ROW_STRUCTURE</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>TIME_IDENTIFYING</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW></genml:STRUCTURE-ELEMENT></genml:AXIS></genml:AXES><genml:STRUCTURE-TYPE>DEFAULT</genml:STRUCTURE-TYPE><genml:MARK> </genml:MARK><genml:IDENT>183</genml:IDENT><genml:PROTECTION>READ</genml:PROTECTION><genml:INSPIRE>false</genml:INSPIRE><genml:EXPLANATION-TRANSFER>false</genml:EXPLANATION-TRANSFER><genml:REGIOSTAT>false</genml:REGIOSTAT><genml:REGIOSTAT-TIMESUFFIX></genml:REGIOSTAT-TIMESUFFIX><genml:LAST-TIMESLICE>0</genml:LAST-TIMESLICE></genml:STRUCTURE></genml:STRUCTURES><genml:RENDERER-SETTINGS><genml:RESULTTABLESETTINGS NAME="12411-0001"><genml:SEPERATEQUALITY>false</genml:SEPERATEQUALITY><genml:REPRESSION>false</genml:REPRESSION><genml:FIELDSTOTAL>72</genml:FIELDSTOTAL><genml:FIELDSPRESENT>72</genml:FIELDSPRESENT></genml:RESULTTABLESETTINGS></genml:RENDERER-SETTINGS><genml:SELECTIONS><genml:SELECTION NAME="STAG25211922733619477" REFERENCE="STAG"><genml:REFERENCE NAME="STAG"></genml:REFERENCE><genml:CHOICE><genml:TIME><genml:CHOICE><genml:DATE>1950-12-31</genml:DATE><genml:DATE>1951-12-31</genml:DATE><genml:DATE>1952-12-31</genml:DATE><genml:DATE>1953-12-31</genml:DATE><genml:DATE>1954-12-31</genml:DATE><genml:DATE>1955-12-31</genml:DATE><genml:DATE>1956-12-31</genml:DATE><genml:DATE>1957-12-31</genml:DATE><genml:DATE>1958-12-31</genml:DATE><genml:DATE>1959-12-31</genml:DATE><genml:DATE>1960-12-31</genml:DATE><genml:DATE>1961-12-31</genml:DATE><genml:DATE>1962-12-31</genml:DATE><genml:DATE>1963-12-31</genml:DATE><genml:DATE>1964-12-31</genml:DATE><genml:DATE>1965-12-31</genml:DATE><genml:DATE>1966-12-31</genml:DATE><genml:DATE>1967-12-31</genml:DATE><genml:DATE>1968-12-31</genml:DATE><genml:DATE>1969-12-31</genml:DATE><genml:DATE>1970-12-31</genml:DATE><genml:DATE>1971-12-31</genml:DATE><genml:DATE>1972-12-31</genml:DATE><genml:DATE>1973-12-31</genml:DATE><genml:DATE>1974-12-31</genml:DATE><genml:DATE>1975-12-31</genml:DATE><genml:DATE>1976-12-31</genml:DATE><genml:DATE>1977-12-31</genml:DATE><genml:DATE>1978-12-31</genml:DATE><genml:DATE>1979-12-31</genml:DATE><genml:DATE>1980-12-31</genml:DATE><genml:DATE>1981-12-31</genml:DATE><genml:DATE>1982-12-31</genml:DATE><genml:DATE>1983-12-31</genml:DATE><genml:DATE>1984-12-31</genml:DATE><genml:DATE>1985-12-31</genml:DATE><genml:DATE>1986-12-31</genml:DATE><genml:DATE>1987-12-31</genml:DATE><genml:DATE>1988-12-31</genml:DATE><genml:DATE>1989-12-31</genml:DATE><genml:DATE>1990-12-31</genml:DATE><genml:DATE>1991-12-31</genml:DATE><genml:DATE>1992-12-31</genml:DATE><genml:DATE>1993-12-31</genml:DATE><genml:DATE>1994-12-31</genml:DATE><genml:DATE>1995-12-31</genml:DATE><genml:DATE>1996-12-31</genml:DATE><genml:DATE>1997-12-31</genml:DATE><genml:DATE>1998-12-31</genml:DATE><genml:DATE>1999-12-31</genml:DATE><genml:DATE>2000-12-31</genml:DATE><genml:DATE>2001-12-31</genml:DATE><genml:DATE>2002-12-31</genml:DATE><genml:DATE>2003-12-31</genml:DATE><genml:DATE>2004-12-31</genml:DATE><genml:DATE>2005-12-31</genml:DATE><genml:DATE>2006-12-31</genml:DATE><genml:DATE>2007-12-31</genml:DATE><genml:DATE>2008-12-31</genml:DATE><genml:DATE>2009-12-31</genml:DATE><genml:DATE>2010-12-31</genml:DATE><genml:DATE>2011-12-31</genml:DATE><genml:DATE>2012-12-31</genml:DATE><genml:DATE>2013-12-31</genml:DATE><genml:DATE>2014-12-31</genml:DATE><genml:DATE>2015-12-31</genml:DATE><genml:DATE>2016-12-31</genml:DATE><genml:DATE>2017-12-31</genml:DATE><genml:DATE>2018-12-31</genml:DATE><genml:DATE>2019-12-31</genml:DATE><genml:DATE>2020-12-31</genml:DATE><genml:DATE>2021-12-31</genml:DATE></genml:CHOICE></genml:TIME></genml:CHOICE></genml:SELECTION></genml:SELECTIONS><genml:DATASET-ASSOC><genml:ASSOCIATION NAME="1,2,3,4"><genml:ELEMENT><TYPE>DATASET</TYPE><NAME>DS_001</NAME></genml:ELEMENT></genml:ASSOCIATION></genml:DATASET-ASSOC></genml:DISPLAY-DATA><genml:STATISTICAL-DATA><genml:DATA><genml:DATASET NAME="DS_001" EXTRACTED="2022-10-10T11:10:39" STRUCTURE="TUPLE" TMP-LOCK="N" STATISTICS="12411"><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">Y</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:STRUCTURE><genml:AXES><genml:AXIS VARIABLE="DINSG" ORDER="-1" LABEL-ORDER="-1" TYPE="CLASSIFICATION"></genml:AXIS><genml:AXIS VARIABLE="STAG" ORDER="-1" LABEL-ORDER="-1" TYPE="TIME"></genml:AXIS></genml:AXES><genml:CONTENTS><genml:CONTENT NAME="1" VARIABLE="BEVSTD" MEASURE-UNIT="Anzahl" POWER="0" DECIMALS="0"></genml:CONTENT></genml:CONTENTS></genml:STRUCTURE><genml:VALUES><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1950-12-31])" CONTENT="1" QUALITY="e" ORIG="50958125"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1951-12-31])" CONTENT="1" QUALITY="e" ORIG="51434777"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1952-12-31])" CONTENT="1" QUALITY="e" ORIG="51863761"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1953-12-31])" CONTENT="1" QUALITY="e" ORIG="52453806"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1954-12-31])" CONTENT="1" QUALITY="e" ORIG="52943295"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1955-12-31])" CONTENT="1" QUALITY="e" ORIG="53517683"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1956-12-31])" CONTENT="1" QUALITY="e" ORIG="53339626"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1957-12-31])" CONTENT="1" QUALITY="e" ORIG="54064365"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1958-12-31])" CONTENT="1" QUALITY="e" ORIG="54719159"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1959-12-31])" CONTENT="1" QUALITY="e" ORIG="55257088"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1960-12-31])" CONTENT="1" QUALITY="e" ORIG="55958321"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1961-12-31])" CONTENT="1" QUALITY="e" ORIG="56589148"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1962-12-31])" CONTENT="1" QUALITY="e" ORIG="57247246"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1963-12-31])" CONTENT="1" QUALITY="e" ORIG="57864509"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1964-12-31])" CONTENT="1" QUALITY="e" ORIG="58587451"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1965-12-31])" CONTENT="1" QUALITY="e" ORIG="59296591"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1966-12-31])" CONTENT="1" QUALITY="e" ORIG="59792934"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1967-12-31])" CONTENT="1" QUALITY="e" ORIG="59948474"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1968-12-31])" CONTENT="1" QUALITY="e" ORIG="60463033"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1969-12-31])" CONTENT="1" QUALITY="e" ORIG="61194591"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1970-12-31])" CONTENT="1" QUALITY="e" ORIG="61001164"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1971-12-31])" CONTENT="1" QUALITY="e" ORIG="61502503"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1972-12-31])" CONTENT="1" QUALITY="e" ORIG="61809378"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1973-12-31])" CONTENT="1" QUALITY="e" ORIG="62101369"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1974-12-31])" CONTENT="1" QUALITY="e" ORIG="61991475"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1975-12-31])" CONTENT="1" QUALITY="e" ORIG="61644624"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1976-12-31])" CONTENT="1" QUALITY="e" ORIG="61441996"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1977-12-31])" CONTENT="1" QUALITY="e" ORIG="61352745"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1978-12-31])" CONTENT="1" QUALITY="e" ORIG="61321663"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1979-12-31])" CONTENT="1" QUALITY="e" ORIG="61439342"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1980-12-31])" CONTENT="1" QUALITY="e" ORIG="61657945"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1981-12-31])" CONTENT="1" QUALITY="e" ORIG="61712689"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1982-12-31])" CONTENT="1" QUALITY="e" ORIG="61546101"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1983-12-31])" CONTENT="1" QUALITY="e" ORIG="61306669"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1984-12-31])" CONTENT="1" QUALITY="e" ORIG="61049256"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1985-12-31])" CONTENT="1" QUALITY="e" ORIG="61020474"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1986-12-31])" CONTENT="1" QUALITY="e" ORIG="61140461"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1987-12-31])" CONTENT="1" QUALITY="e" ORIG="61238079"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1988-12-31])" CONTENT="1" QUALITY="e" ORIG="61715103"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1989-12-31])" CONTENT="1" QUALITY="e" ORIG="62679035"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1990-12-31])" CONTENT="1" QUALITY="e" ORIG="79753227"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1991-12-31])" CONTENT="1" QUALITY="e" ORIG="80274564"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1992-12-31])" CONTENT="1" QUALITY="e" ORIG="80974632"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1993-12-31])" CONTENT="1" QUALITY="e" ORIG="81338093"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1994-12-31])" CONTENT="1" QUALITY="e" ORIG="81538603"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1995-12-31])" CONTENT="1" QUALITY="e" ORIG="81817499"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1996-12-31])" CONTENT="1" QUALITY="e" ORIG="82012162"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1997-12-31])" CONTENT="1" QUALITY="e" ORIG="82057379"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1998-12-31])" CONTENT="1" QUALITY="e" ORIG="82037011"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[1999-12-31])" CONTENT="1" QUALITY="e" ORIG="82163475"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2000-12-31])" CONTENT="1" QUALITY="e" ORIG="82259540"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2001-12-31])" CONTENT="1" QUALITY="e" ORIG="82440309"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2002-12-31])" CONTENT="1" QUALITY="e" ORIG="82536680"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2003-12-31])" CONTENT="1" QUALITY="e" ORIG="82531671"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2004-12-31])" CONTENT="1" QUALITY="e" ORIG="82500849"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2005-12-31])" CONTENT="1" QUALITY="e" ORIG="82437995"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2006-12-31])" CONTENT="1" QUALITY="e" ORIG="82314906"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2007-12-31])" CONTENT="1" QUALITY="e" ORIG="82217837"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2008-12-31])" CONTENT="1" QUALITY="e" ORIG="82002356"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2009-12-31])" CONTENT="1" QUALITY="e" ORIG="81802257"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2010-12-31])" CONTENT="1" QUALITY="e" ORIG="81751602"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2011-12-31])" CONTENT="1" QUALITY="e" ORIG="80327900"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2012-12-31])" CONTENT="1" QUALITY="e" ORIG="80523746"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2013-12-31])" CONTENT="1" QUALITY="e" ORIG="80767463"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2014-12-31])" CONTENT="1" QUALITY="e" ORIG="81197537"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2015-12-31])" CONTENT="1" QUALITY="e" ORIG="82175684"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2016-12-31])" CONTENT="1" QUALITY="e" ORIG="82521653"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2017-12-31])" CONTENT="1" QUALITY="e" ORIG="82792351"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2018-12-31])" CONTENT="1" QUALITY="e" ORIG="83019213"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2019-12-31])" CONTENT="1" QUALITY="e" ORIG="83166711"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2020-12-31])" CONTENT="1" QUALITY="e" ORIG="83155031"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[STAG].[2021-12-31])" CONTENT="1" QUALITY="e" ORIG="83237124"></genml:VALUE></genml:VALUES><genml:MARK> </genml:MARK><genml:IDENT>-1</genml:IDENT><genml:PROTECTION></genml:PROTECTION><genml:BASECUBE>N</genml:BASECUBE><genml:DATASETS><genml:DATASET NAME="12411BJ005" EXTRACTED="2022-10-10T11:10:39" STRUCTURE="TUPLE" TMP-LOCK="N" STATISTICS="12411"><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">Y</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:STRUCTURE><genml:AXES><genml:AXIS VARIABLE="DINSG" ORDER="1" LABEL-ORDER="1" TYPE="CLASSIFICATION"></genml:AXIS><genml:AXIS VARIABLE="STAG" ORDER="2" LABEL-ORDER="2" TYPE="TIME"></genml:AXIS></genml:AXES><genml:CONTENTS><genml:CONTENT NAME="1" VARIABLE="BEVSTD" MEASURE-UNIT="Anzahl" POWER="1" TYPE="CASE" DECIMALS="0"></genml:CONTENT></genml:CONTENTS></genml:STRUCTURE><genml:MARK> </genml:MARK><genml:IDENT>2052</genml:IDENT><genml:PROTECTION>READ</genml:PROTECTION><genml:BASECUBE>Y</genml:BASECUBE></genml:DATASET></genml:DATASETS><genml:BASECUBE-OBJECT><genml:NAME>12411BJ005</genml:NAME></genml:BASECUBE-OBJECT></genml:DATASET></genml:DATA><genml:METADATA><genml:VARIABLES><genml:VARIABLE NAME="STAG" EXTRACTED="2022-10-10T11:10:39" MODIFIED="2019-09-26T16:09:51" CREATED="2002-01-31T14:01:44" TMP-LOCK="N"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Reference date</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Stichtag</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TOPIC>N</genml:TOPIC><genml:TYPE>ZI</genml:TYPE><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:SUMMABLE>N</genml:SUMMABLE><genml:STOCK>N</genml:STOCK><genml:REPRESENTATION>REFERENCE-DAY</genml:REPRESENTATION><genml:VALIDITY></genml:VALIDITY><genml:VALUE-COUNT>0</genml:VALUE-COUNT><genml:FORMAT>yyyy-MM-dd</genml:FORMAT><genml:MARK> </genml:MARK><genml:IDENT>54</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION><genml:CHILD_VARIABLE_COUNT>1</genml:CHILD_VARIABLE_COUNT><genml:VISUAL_RIGHTS><genml:VISUAL_RIGHT><genml:TYPE>DIAGRAM</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>GIS-VIEWER</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>INSPIRE-VIEW</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>MAP</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>TABLE</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT></genml:VISUAL_RIGHTS></genml:VARIABLE><genml:VARIABLE NAME="BEVSTD" EXTRACTED="2022-10-10T11:10:39" MODIFIED="2016-05-13T16:05:00" CREATED="2002-01-31T14:01:44" TMP-LOCK="N"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Population</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Bevölkerungsstand</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TOPIC>N</genml:TOPIC><genml:TYPE>W</genml:TYPE><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:SUMMABLE>Y</genml:SUMMABLE><genml:STOCK>Y</genml:STOCK><genml:REPRESENTATION></genml:REPRESENTATION><genml:VALIDITY><genml:FROM>1950-01-01</genml:FROM></genml:VALIDITY><genml:VALUE-COUNT>0</genml:VALUE-COUNT><genml:DEFINITION><genml:TEXT LANG="en" FORMAT="text/plain">Population
+
+Explanatory notes for the following statistics:
+12411 Current updating of population figures
+
+Definition:
+Intercensal population updates cover all inhabitants that
+are registered, or should be registered, in Germany in
+accordance with registration law. Allocation to a domestic
+municipality is based on the place of sole or main
+residence. The population covered includes both the German
+and the non-German (foreign) population living in Germany.
+Intercensal population updates are rolled forward from the
+latest population census results in a breakdown by sex, age,
+marital status and citizenship, using both statistics of
+population change (migration, births, deaths, entering into
+marriages or registered same-sex partnerships) and
+information on changes in citizenship and the dissolution of
+marriages or registered same-sex partnerships. People who
+are exempted from the obligation to register in accordance
+with Section 26 of the Federal Registration Act (members of
+foreign armed forces stationed in the country and of foreign
+diplomatic missions and consular posts, including their
+families) are not part of the survey population.
+
+Changes over time:
+The following formed the basis for updating the population
+figures in the former territory of the Federal Republic:
+- until 24 September 1956:
+  1950 population and occupation census,
+- until 5 June 1961:
+  current population in the housing statistics of
+  25 September 1956,
+- from 6 June 1961 to 26 May 1970:
+  1961 population and occupation census,
+- from 27 May 1970 to 25 May 1987:
+  1970 population and occupation census, and
+- from 26 May 1987 to 8 May 2011:
+  1987 population and occupation census.
+A copy of the Central Population Register (CPR) (as at 3
+October 1990) provided the basis for updating the population
+figures in the new Länder and Berlin-East.
+Since 9 May 2011, the 2011 Census has been the basis for
+updating the population figures.
+
+Relations between concepts:
+The concepts of the number of population (as at ...),
+population, and average population (e.g. on a monthly or
+annual average) relate to the same group of people.
+Unlike the population that is established on a census
+reference date, the number of population reflected by
+population updates refers to different times or different
+periods.
+
+
+© Statistisches Bundesamt, Wiesbaden 2016</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Bevölkerungsstand
+
+Erläuterung für folgende Statistik(en):
+12411 Fortschreibung des Bevölkerungsstandes
+
+Begriffsinhalt:
+In der Bevölkerungsfortschreibung werden alle Einwohner, die
+gemäß Melderecht in Deutschland gemeldet sind bzw. gemeldet
+sein sollten, als Bestand nachgewiesen. Die Zuordnung zu
+einer Gemeinde im Inland erfolgt nach dem Standort der
+alleinigen oder der Hauptwohnung. Es wird die in Deutschland
+lebende deutsche und nicht-deutsche (ausländische)
+Bevölkerung erfasst. Bei der laufenden Fortschreibung werden
+die Ergebnisse des jeweils letzten Zensus in der Gliederung
+nach Geschlecht, Alter, Familienstand und
+Staatsangehörigkeit mit den Ergebnissen der Statistiken der
+Bevölkerungsbewegungen (Wanderungen, Geburten, Sterbefälle,
+Eheschließungen, Begründung von Lebenspartnerschaften) sowie
+mit Angaben zum Staatsangehörigkeitswechsel und Lösungen von
+Ehen und Lebenspartnerschaften fortgeschrieben. Personen,
+die nach §26 Bundesmeldegesetz von der Meldepflicht befreit
+sind (Angehörige der ausländischen Stationierungs-
+streitkräfte sowie von ausländischen diplomatischen und
+konsularischen Vertretungen mit ihren Familienangehörigen),
+zählen nicht zur Grundgesamtheit.
+
+Änderungen im Zeitablauf:
+Grundlage für die Fortschreibung der Bevölkerung im früheren
+Bundesgebiet war
+- bis zum 24.09.1956 die Volks- und Berufszählung 1950, dann
+- bis zum 05.06.1961 die Bestandsaufnahme der
+  Bevölkerung in der Wohnungsstatistik vom 25.09.1956,
+- vom 06.06.1961 bis zum 26.05.1970 die Volks- und
+  Berufszählung 1961 und
+- vom 27.05.1970 bis zum 25.05.1987 die Volks- und
+  Berufszählung 1970,und
+- vom 26.5.1987 bis zum 08.05.2011 die Volks- und
+Berufszählung 1987.
+Für die neuen Länder und Berlin-Ost wurde als Ausgangsbasis
+ein Abzug des Zentralen Einwohnerregisters (ZER) zum
+03.10.1990 verwendet.
+Seit dem 09.05.2011 bildet der Zensus aus dem Jahr 2011 die
+Grundlage für die Bevölkerungsfortschreibung.
+
+Begriffsbeziehungen:
+Die Begriffe Bevölkerungsstand (zum ... Stichtag),
+Bevölkerung, Durchschnittsbevölkerung (z.B. im Monats-,
+Jahresdurchschnitt) beschreiben den gleichen Personenkreis.
+Im Unterschied zur Bevölkerung, die für den Stichtag einer
+Zählung nachgewiesen wird, weist der Bevölkerungsstand die
+fortgeschriebene Zahl der zur Bevölkerung rechnenden
+Personen zu verschiedenen Zeitpunkten beziehungsweise für
+verschiedene Zeiträume nach.
+
+
+© Statistisches Bundesamt, Wiesbaden 2016</genml:TEXT></genml:DEFINITION><genml:MARK> </genml:MARK><genml:IDENT>46</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION><genml:CHILD_VARIABLE_COUNT>1</genml:CHILD_VARIABLE_COUNT><genml:VISUAL_RIGHTS><genml:VISUAL_RIGHT><genml:TYPE>DIAGRAM</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>GIS-VIEWER</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>INSPIRE-VIEW</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>MAP</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>TABLE</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT></genml:VISUAL_RIGHTS></genml:VARIABLE><genml:VARIABLE NAME="DINSG" EXTRACTED="2022-10-10T11:10:39" MODIFIED="2016-01-25T13:01:17" CREATED="2002-01-31T15:01:49" TMP-LOCK="N"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Germany</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TOPIC>N</genml:TOPIC><genml:TYPE>RKG</genml:TYPE><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:BREAKDOWN-TYPE>OF-WHICH</genml:BREAKDOWN-TYPE><genml:DEFAULT-SORT-ORDER>KEY</genml:DEFAULT-SORT-ORDER><genml:SUMMABLE>N</genml:SUMMABLE><genml:STOCK>N</genml:STOCK><genml:REPRESENTATION></genml:REPRESENTATION><genml:VALIDITY><genml:FROM>1950-01-01</genml:FROM></genml:VALIDITY><genml:VALUE-COUNT>1</genml:VALUE-COUNT><genml:MARK> </genml:MARK><genml:IDENT>99</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION><genml:CHILD_VARIABLE_COUNT>1</genml:CHILD_VARIABLE_COUNT><genml:VISUAL_RIGHTS><genml:VISUAL_RIGHT><genml:TYPE>DIAGRAM</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>GIS-VIEWER</genml:TYPE><genml:VISIBLE>false</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>INSPIRE-VIEW</genml:TYPE><genml:VISIBLE>false</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>MAP</genml:TYPE><genml:VISIBLE>false</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>TABLE</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT></genml:VISUAL_RIGHTS></genml:VARIABLE></genml:VARIABLES><genml:VALUES><genml:VALUE NAME="DG" EXTRACTED="2022-10-10T11:10:39" MODIFIED="2016-01-22T14:01:05" CREATED="2002-02-01T12:02:50"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Germany</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Deutschland</genml:TEXT></genml:SHORT-DESCRIPTION><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:VARIABLE-COUNT>-1</genml:VARIABLE-COUNT></genml:VALUE></genml:VALUES><genml:STATS><genml:STATISTICS NAME="12411" EXTRACTED="2022-10-10T11:10:39" MODIFIED="2022-08-02T12:08:04" CREATED="2002-01-29T12:01:48"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Current updating of population figures</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Fortschreibung des Bevölkerungsstandes</genml:TEXT></genml:SHORT-DESCRIPTION><genml:EXPLANATION><genml:TEXT LANG="de" FORMAT="text/plain">1  Allgemeine Angaben zur Statistik
+===================================
+
+1.1 Bezeichnung der Statistik 
+Fortschreibung des Bevölkerungsstandes (EVAS-Nr. 12411).
+
+1.2 Grundgesamtheit
+Zur Grundgesamtheit gehören alle in Deutschland
+meldepflichtigen Personen. Somit ergibt sich die
+Grundgesamtheit aus dem Melderecht.
+Basis der Bevölkerungsfortschreibung sind die Ergebnisse des
+letzten Zensus (2011). Im Zensus werden alle Personen
+erfasst, die gemeldet sein sollten: die Zahl der gemeldeten
+Personen wurde dabei für die Personen korrigiert, die zwar
+gemeldet aber nicht wohnhaft ('Karteileichen') oder
+mehrfach gemeldet sind sowie für die Personen, die wohnhaft
+aber nicht gemeldet sind ('Fehlbestände'). Bei der
+laufenden Fortschreibung der Zensusergebnisse werden
+Angaben der Meldebehörden über erfasste An- und Abmeldungen
+von Personen beim Bezug und Auszug aus einer Wohnung sowie
+Angaben der Standesämter über erfasste Geburten und
+Sterbefälle zu Personen mit Wohnung in Deutschland
+berücksichtigt.
+Die Zuordnung zu einer Gemeinde im Inland erfolgt nach dem
+Standort der alleinigen oder Hauptwohnung. Es wird die in
+Deutschland lebende deutsche und nichtdeutsche
+(ausländische) Bevölkerung erfasst. Personen, die eine
+Wohnung im Inland und weitere Wohnungen im Ausland haben,
+zählen zur Bevölkerung.
+Personen, die nach dem Bundesmeldegesetz (§26) von der
+Meldepflicht befreit sind (Mitglieder einer ausländischen
+diplomatischen und konsularischen Vertretung mit ihren
+mitwohnenden Familienangehörigen oder aufgrund von
+völkerrechtlichen Übereinkünften), zählen nicht zur
+Grundgesamtheit.
+Personen, die sich vorübergehend in Deutschland aufhalten
+(Besucher, Saisonarbeiter u.Ä.) werden zur Bevölkerung
+gezählt, sofern sie bei den Meldebehörden angemeldet sind.
+Für die Erfassung in der Bevölkerungsfortschreibung gilt
+somit keine allgemeine Mindestaufenthaltsdauer. Allerdings
+gilt nach §27(2) Bundesmeldegesetz eine allgemeine Ausnahme
+zur Meldepflicht für Aufenthalte unter 3 Monaten für
+Personen mit Wohnsitz im Ausland. Anmeldungen bei
+Aufenthalten kürzer als 3 Monate werden jedoch registriert,
+zum Beispiel wenn eine Person eine Meldebescheinigung
+benötigt und sich anmeldet.
+Personen, die nach Unbekannt abgemeldet sind, zählen nicht
+zur Bevölkerung, unabhängig davon, ob sie sich im Inland
+oder im Ausland aufhalten.
+Schutzsuchende sind meldepflichtig und zählen demnach zur
+Bevölkerung, sobald sie erfasst wurden.
+
+1.3 Statistische Einheiten (Darstellungs- und 
+    Erhebungseinheiten)
+Die statistische Grundeinheit ist die sogenannte Kohorte,
+also eine Gruppe von Personen mit den gleichen
+demografischen Merkmalen (Geburtsjahr, Geschlecht,
+Staatsangehörigkeit, Familienstand) in der kleinsten
+entsprechenden regionalen Einheit. Für jede Kohorte wird
+die Zahl der zur Kohorte gehörenden Personen
+fortgeschrieben.
+Seit dem Zensus 2011 werden drei parallele, konsistente
+Kohortensysteme geführt:
+- Auf Gemeindeebene sind die Kohorten durch die
+Personenmerkmale Geburtsjahr, Geschlecht und
+Staatsangehörigkeit deutsch/nichtdeutsch definiert,
+- Auf Kreisebene sind die Kohorten durch die
+Personenmerkmale Geburtsjahr, Geschlecht,
+Staatsangehörigkeit deutsch/nichtdeutsch und Familienstand
+definiert,
+- Auf Landesebene sind die Kohorten durch die
+Personenmerkmale Geburtsjahr, Geschlecht und
+Staatsangehörigkeit (einzelne) definiert.
+
+1.4 Räumliche Abdeckung
+Es werden Ergebnisse für Gemeinden, Kreise, Bundesländer und
+das Bundesgebiet nach dem Gemeindeverzeichnis des
+Statistischen Bundesamts ausgewiesen. Gebietsänderungen (z.
+B. Eingemeindungen, Ein- und Ausgliederung von
+Gemeindeteilen oder Gemeindeteilungen) werden monatlich
+eingearbeitet. Die Angaben für Deutschland beziehen sich
+auf die Bundesrepublik Deutschland ab 1950 nach dem
+Gebietsstand seit dem 3. Oktober 1990. Seit dem
+Berichtsjahr 2000 beziehen sich die Angaben für das frühere
+Bundesgebiet auf die Bundesrepublik mit dem Gebietsstand
+bis zum 3. Oktober 1990 ohne Berlin-West. Die Angaben für
+die neuen Länder beziehen sich auf die Länder Brandenburg,
+Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt und
+Thüringen, und die Angaben für Berlin auf Gesamt-Berlin.
+Von 1990 bis einschließlich 2000 wurde Ost-Berlin den neuen
+Bundesländern bzw. West-Berlin dem früheren Bundesgebiet
+zugerechnet. Beim Statistischen Bundesamt liegen die Daten
+bis auf Kreisebene vor, bei den Statistischen Ämtern der
+Länder auch in tieferen regionalen Gliederungen.
+
+1.5 Berichtszeitraum/-zeitpunkt
+Berichtsstichtag ist der letzte Tag des jeweiligen Monats,
+Quartals oder Jahres.
+Darüber hinaus wird eine Jahresdurchschnittsbevölkerung
+ermittelt (siehe auch 2.1.3).
+
+1.6 Periodizität
+Die Bevölkerungsfortschreibung erfolgt monatlich. Die
+Monats- sowie Quartalsdaten weisen nur wenige Merkmale auf
+Landesebene nach (Geschlecht und Staatsangehörigkeit
+deutsch/nichtdeutsch). Die jährlichen Daten weisen die
+Bevölkerung zum 31.12. des Jahres nach den Merkmalen
+Geschlecht, Staatsangehörigkeit, Alter und Familienstand
+sowie als Jahresdurchschnitt nach Alter, Geburtsjahr,
+Geschlecht und Staatsangehörigkeit deutsch/nichtdeutsch
+nach. Zudem werden Daten zur Bevölkerungsentwicklung (siehe
+2.1.1) bereitgestellt.
+
+1.7 Rechtsgrundlagen und andere Vereinbarungen
+Im Bundesrecht gilt das Gesetz über die Statistik der
+Bevölkerungsbewegung und die Fortschreibung des
+Bevölkerungsstandes - Bevölkerungsstatistikgesetz
+(BevStatG). Es wurde zuletzt novelliert durch das Gesetz
+vom 20. April 2013 (BGBl. I S. 826) und zuletzt geändert
+durch Artikel 3 des Gesetzes vom 9. Juni 2021 (BGBl. I S.
+1649).
+Zudem gelten die Regelungen des Gesetzes über die Statistik
+für Bundeszwecke - Bundesstatistikgesetz (BStatG) vom
+22.01.1987 (BGBl. I S. 462,565), zuletzt geändert durch
+Artikel 6 des Gesetzes vom 22. Februar 2021 (BGBl. I S.
+266).
+Auf europäischer Ebene gelten die Verordnung (EG) Nr.
+862/2007 des Europäischen Parlaments und des Rates vom 11.
+Juli 2007 zu Gemeinschaftsstatistiken über Wanderung und
+internationalen Schutz und zur Aufhebung der Verordnung
+(EWG) Nr. 311/76 des Rates über die Erstellung von
+Statistiken über ausländische Arbeitnehmer sowie die
+Verordnung (EU) Nr. 1260/2013 über europäische
+demografische Statistiken.
+
+1.8 Geheimhaltung
+1.8.1 Geheimhaltungsvorschriften
+Die erhobenen Einzelangaben werden nach § 16 BStatG
+grundsätzlich geheim gehalten. Nur in ausdrücklich
+gesetzlich geregelten Ausnahmefällen dürfen Einzelangaben
+übermittelt werden. Hochschulen oder sonstigen
+Einrichtungen mit der Aufgabe unabhängiger
+wissenschaftlicher Forschung dürfen demnach nach § 16 Abs.
+6 BStatG für die Durchführung wissenschaftlicher Vorhaben
+Einzelangaben zur Verfügung gestellt werden. Diese
+Einzelangaben sind so zu anonymisieren, dass sie nur mit
+einem unverhältnismäßig großen Aufwand an Zeit, Kosten und
+Arbeitskraft dem Befragten oder Betroffenen zugeordnet
+werden können. Die Pflicht zur Geheimhaltung besteht auch
+für Personen, die Empfänger von Einzelangaben sind.
+
+1.8.2 Geheimhaltungsverfahren
+Das Ergebnis der Bevölkerungsfortschreibung ist ein
+rechnerisches Ergebnis, das keine Personen, sondern
+Kohorten nachweist. Demnach können die Ergebnisse keinen
+einzelnen Personen zugeordnet werden. Ein
+Geheimhaltungsverfahren entfällt.
+
+1.9 Qualitätsmanagement
+1.9.1 Qualitätssicherung
+In der Bevölkerungsfortschreibung fließen nur Daten ein, die
+vorher im Prozess der Statistikerstellung vielfältigen
+Maßnahmen unterliegen, die zur Sicherung der Qualität der
+Daten beitragen. So unterliegen die Datenlieferungen
+kontinuierlichen Plausibilitätsprüfungen. Damit wird
+sichergestellt, dass etwaige Übermittlungs- und
+Angabefehler minimiert werden können. Die Maßnahmen zur
+Qualitätssicherung, die an einzelnen Punkten der
+Statistikerstellung ansetzen, werden bei Bedarf angepasst
+und um standardisierte Methoden der Qualitätsbewertung und
+-sicherung ergänzt. Durch Referentenbesprechungen, die in
+Zusammenarbeit mit den Statistischen Ämtern der Länder
+durchgeführt werden, werden konsistente Verfahrensweisen
+sichergestellt.
+Zur Qualität der einfließenden Daten wird auf die
+Qualitätsberichte der jeweils verwendeten Statistiken
+verwiesen. Bei den in die Bevölkerungsfortschreibung
+einfließenden Daten handelt es sich um Verwaltungsdaten mit
+Vollerhebung. Stellt eine berichtspflichtige Behörde fest,
+dass ihre Angaben nicht richtig sind, nimmt sie eine
+Berichtigung vor und übermittelt eine entsprechende
+Korrekturmitteilung an das zuständige statistische
+Landesamt, damit die Bevölkerungsfortschreibung berichtigt
+werden kann. Insbesondere teilen die Meldebehörden mit,
+wenn festgestellt wurde, dass eine zuvor gemeldete Person
+nicht mehr wohnhaft ist und von Amts wegen abgemeldet
+wurde.
+Die IWF-Standards für die Bevölkerungszahl für Deutschland
+werden erfüllt (jährliche Zertifizierung).
+
+1.9.2 Qualitätsbewertung
+Das Konzept der Bevölkerungsfortschreibung sichert eine hohe
+Kohärenz der verschiedenen Bevölkerungsstatistiken
+(einschließlich Zensus), da alle in die Fortschreibung
+einfließenden Statistiken mit den gleichen Konzepten,
+Abgrenzungen und Klassifikationen erstellt werden müssen.
+Die Komponenten der Bevölkerungsentwicklung (Geburten,
+Sterbefälle, Wanderungen) sind stimmig.
+Da die Bevölkerungsfortschreibung in allen Bestandteilen
+(Wanderungen, Geburten, Sterbefällen,
+Staatsangehörigkeitswechsel) auf Totalerhebungen bzw. auf
+einen Zensus beruht, sind die Ergebnisse als präzise
+einzustufen (siehe auch Punkt 4.1). Die Vollständigkeit der
+Zahlen hängt allerdings auch von der Einhaltung der
+melderechtlichen Vorschriften der Bürger, sowie der
+qualitätssichernden Maßnahmen der Melde- und Standesämter
+bei der Führung der Register ab.
+
+
+2  Inhalte und Nutzerbedarf
+===========================
+
+2.1 Inhalte der Statistik
+2.1.1 Inhaltliche Schwerpunkte der Statistik
+Die Fortschreibung des Bevölkerungsstandes wird geführt, um
+die Zahl und die Zusammensetzung der Bevölkerung sowie ihre
+Veränderung festzustellen. Unter anderem wird die
+Einwohnerzahl auf Gemeindeebene ermittelt. Nach § 5
+BevStatG werden dafür die in Deutschland lebende
+Bevölkerung insgesamt sowie getrennt nach Geschlecht,
+Alter, Familienstand, Gemeinde und Staatsangehörigkeit
+erfasst.
+Monatlich werden die Einwohnerzahlen und ausgewählte
+Eckzahlen in regionaler Gliederung bereitgestellt (siehe
+auch 1.6).
+Jährlich werden die Einwohnerzahlen und die demografischen
+Strukturen in regionalen Gliederungen zum Stichtag 31.12.
+des Berichtsjahres sowie als Jahresdurchschnitt
+bereitgestellt (siehe 1.6) und die Bevölkerungsentwicklung
+nach Komponenten (Bilanzen der Geburten, Sterbefälle,
+Wanderungen und sonstige Veränderungen) abgebildet.
+
+2.1.2 Klassifikationssysteme
+Folgende Klassifikationen werden verwendet:
+Gebietsstand nach dem Stand des jeweiligen Monats, 
+für die Fortschreibung auf Grundlage des Zensus 2011 auch
+die Staats- und Gebietssystematik.
+Für die Lieferungen an internationale Organisationen werden
+internationale Klassifikationen zugrundegelegt
+(Nomenclature of Territorial Units for Statistics-NUTS,
+Staaten nach dem ISO-Code).
+
+2.1.3 Statistische Konzepte und Definitionen
+Zur in Deutschland lebenden Bevölkerung zählen gemäß der
+Definition vom Zensusgesetz 2011, §2 Nr. (1) die nach den
+melderechtlichen Vorschriften zum Berichtszeitpunkt
+meldepflichtigen Personen.
+Das Merkmal Geschlecht kann Fälle mit der Ausprägung
+'unbestimmt' bzw. ab dem Berichtsjahr 2019 'divers'
+beinhalten. Diese werden nicht gesondert fortgeschrieben,
+sondern durch ein definiertes Umschlüsselungsverfahren auf
+männlich und weiblich verteilt. Ein Nachweis des
+Geschlechts 'divers' ist derzeit nicht möglich, da im
+Rahmen des Zensus 2011 kein Anfangsbestand ermittelt wurde
+und die in den Personenstandregistern erfassten Änderungen
+des Geschlechts an die Statistik nicht gemeldet werden.
+Die Bestimmung des Alters der Bevölkerung erfolgt mittels
+der Auszählung nach Geburtsjahren. Dabei werden die
+Personen eines bestimmten Geburtsjahrganges jeweils dem
+Altersjahr zugeordnet, dem sie am Jahresende angehören
+(Beispiel für das Berichtsjahr 2020: Geburtsjahr 2020 =
+Altersjahr 0 bis unter 1; Geburtsjahr 2019 = Altersjahr 1
+bis unter 2 usw.).
+Als Ausländer gelten in der Fortschreibung alle Personen,
+die nicht Deutsche im Sinne des Art. 116 Abs. 1 Grundgesetz
+sind. Dazu zählen auch Staatenlose und Personen mit
+"ungeklärter" Staatsangehörigkeit. Deutsche, die zugleich
+eine weitere Staatsangehörigkeit besitzen, zählen nicht als
+Ausländer. Asylbewerber zählen zur ausländischen
+Bevölkerung. Sie werden in der Bevölkerungsstatistik
+berücksichtigt, sobald sie melderechtlich angemeldet sind.
+Die melderechtliche Anmeldung erfolgt in der Regel in der
+Erstaufnahmeeinrichtung und ist unabhängig von der Stellung
+des Asylantrags.
+In der Fortschreibung auf Grundlage des Zensus 2011 werden
+auf Landesebene Daten für einzelne Staatsangehörigkeiten
+dargestellt. Personen, die mehrere Staatsangehörigkeiten
+besitzen, werden nur mit der ersten Staatsangehörigkeit
+ausgewiesen, ein Nachweis der Doppelstaatler erfolgt nicht.
+Die Festlegung der Reihenfolge der Staatsangehörigkeiten
+erfolgt in den Meldebehörden nach folgendem Schema:
+deutsche, EU-Staatsangehörigkeit, restliches Europa,
+restliche Welt. So können Personen, die beispielsweise
+neben der schweizerischen Staatsangehörigkeit (Zuordnung zu
+"restliches Europa") noch eine weitere Staatsangehörigkeit
+besitzen, unter unterschiedlichen Staatsangehörigkeiten in
+den Veröffentlichungen ausgewiesen werden. Dies passiert in
+Abhängigkeit der zweiten Staatsangehörigkeit der Person:
+Wenn die zweite Staatsangehörigkeit deutsch ist, wird die
+Person unter "Deutsche" ausgewiesen. Ist sie neben der
+schweizerischen Staatsangehörigkeit im Besitz einer
+weiteren EU-Staatsangehörigkeit, so wird sie unter dieser
+EU-Staatsangehörigkeit aufgeführt. Nur wenn die zweite
+Staatsangehörigkeit der Rubrik "restliche Welt" angehört,
+wird die Person unter der schweizerischen
+Staatsangehörigkeit ausgewiesen.
+Beim Familienstand wurden seit 2011 sieben Familienstände
+erfasst: ledig, verheiratet, geschieden, verwitwet,
+eingetragene Lebenspartnerschaft, Lebenspartner verstorben
+und Lebenspartnerschaft aufgehoben. Mit Inkrafttreten des
+Gesetzes zur Einführung des Rechts auf Eheschließung für
+Personen gleichen Geschlechts am 01.10.2017 werden keine
+Lebenspartnerschaften mehr, sondern Ehen geschlossen. Zudem
+sind Umwandlungen von Lebenspartnerschaften in Ehen
+möglich. Ab dem Berichtsjahr 2019 werden die 7
+Familienstände durch die folgende Zusammenlegung in der
+Bevölkerungsfortschreibung auf 4 Familienstände
+zusammengefasst: "Lebenspartnerschaft" mit "verheiratet"
+"aufgehobene Lebenspartnerschaft" mit "geschieden" und
+"Lebenspartner verstorben" mit "verwitwet". Zum 01.01.2019
+wurden außerdem die entsprechenden bestehenden Kohorten
+zusammengefasst.
+In den monatlichen Daten wird der Gebietsstand des
+jeweiligen Monats zugrunde gelegt. Für die Berechnung der
+Jahresdaten (Durchschnittsbevölkerung) werden die
+Ergebnisse für das ganze Jahr auf den Gebietsstand des
+Monats Dezember umgerechnet.
+Seit 2011 wird die durchschnittliche Bevölkerung als
+arithmetisches Mittel zwischen den Beständen am
+Jahresanfang und am Jahresende berechnet. Für die
+Berechnung der Bevölkerung nach Alter im Jahresdurchschnitt
+wird der Durchschnitt zwischen dem Bestand eines
+Altersjahres zum 31.12. des Jahres und des Vorjahres
+gebildet.
+Alle EU-Staaten liefern ab dem Berichtsjahr 2013 zum
+Stichtag 31.12. eine Gesamtbevölkerungszahl gemäß den
+Vorgaben der Bevölkerungsdefinition zum ''üblichen
+Aufenthaltsort''. Eine einheitliche Definition ist in
+Artikel 4 der EU Verordnung 1260/2013 zu europäischen
+demografischen Statistiken geregelt. Ein wesentlicher
+Aspekt der europäischen Definition ist das
+12-Monats-Kriterium: So werden Personen in einem Land nur
+dann als üblich aufhältig gezählt, wenn ihre (tatsächliche
+oder beabsichtigte) Aufenthaltsdauer mindestens 12 Monate
+beträgt. Andererseits zählen Personen, die für weniger als
+12 Monate fortgezogen sind, weiterhin zur üblich
+aufhältigen Bevölkerung.
+Die Schnittmenge zwischen der Bevölkerungszahl der
+Bevölkerungsfortschreibung und der Bevölkerungszahl am
+üblichen Aufenthaltsort ist erheblich. Abweichungen
+bestehen einerseits für Personengruppen, die laut dem
+deutschen Bevölkerungsfortschreibungskonzept erfasst sind,
+nicht aber unter die Bevölkerungsdefinition nach dem
+üblichen Aufenthaltsort zählen. So werden Personen, die
+sich am Stichtag in Deutschland nur vorübergehend aufhalten
+und sich angemeldet haben, in der
+Bevölkerungsfortschreibung gezählt, sind aber in der
+Bevölkerung am üblichen Aufenthaltsort nicht erfasst.
+Gleichzeitig zählt die europäische Bevölkerungsdefinition
+nach dem üblichen Aufenthaltsort Personengruppen, die nach
+dem deutschen Fortschreibungskonzept nicht hinzugezogen
+werden. So werden Personen, die am Stichtag ins Ausland
+abgemeldet und nur vorübergehend im Ausland sind, in der
+Bevölkerungsfortschreibung nicht gezählt, sind aber in der
+Bevölkerung am üblichen Aufenthaltsort enthalten. Für die
+Bemessung der Bevölkerung am üblichen Aufenthaltsort zum
+Stichtag 31.12. des Berichtsjahres werden Schätzungen über
+die beschriebenen Personengruppen vorgenommen und zum
+Ergebnis der Bevölkerungsfortschreibung hinzugerechnet bzw.
+abgezogen.  
+
+2.2 Nutzerbedarf
+Die Einwohnerzahlen bilden in zahlreichen Verordnungen eine
+maßgebliche Grundlage u. a. für die Verteilung der
+Länderstimmen im Bundesrat, für die Beteiligung der Länder
+an der aufkommenden Umsatzsteuer, für den Finanzausgleich
+zwischen Bund und Ländern, für die Einteilung der
+Wahlkreise und Größe der Wahlbezirke sowie für allgemeine
+Planungsaufgaben.
+Darüber hinaus stellen Bevölkerungszahlen und demografische
+Strukturen Grunddaten in vielen wirtschaftlichen und
+wissenschaftlichen Bereichen dar. Sie werden auch als
+Hochrechnungsrahmen oder Bezugsgröße von verschiedenen
+Statistiken benötigt.
+Zu den Hauptnutzern der Bevölkerungsfortschreibung zählen
+die Bundesministerien und Bundesbehörden, die Kommunen,
+Landesministerien und -behörden sowie Zweckverbände und
+internationale Organisationen. Daneben zählen auch
+Wirtschaftsverbände, die Wissenschaft, Medien und Presse,
+Privatpersonen sowie die gesamte Öffentlichkeit zu den
+Nutzern der Ergebnisse der Bevölkerungsfortschreibung.
+Zudem werden die Bevölkerungszahlen von zahlreichen
+internationalen Organisationen (UN, EU, OECD) genutzt.
+Für alle administrativen regionalen Gliederungen sowie
+nichtadministrative Einheiten, die sich aber aus Gemeinden
+zusammensetzen (z. B. Eurostat-Klassifikation nach dem Grad
+der Verstädterung), können Daten berechnet werden. Es ist
+dagegen nicht möglich, Daten für nichtadministrative
+Einheiten, die sich nicht aus Gemeinden zusammensetzen,
+Bevölkerungsdaten zu ermitteln. Dazu gehören unter anderem
+georeferenzierte Daten.
+Zudem ist das Geburtsland nicht Teil der nachgewiesenen
+demografischen Merkmale, da die rechtlichen
+Rahmenbedingungen zum Zeitpunkt des Zensus 2011 nicht
+gegeben waren.
+
+2.3 Nutzerkonsultation
+Die Interessen der Hauptnutzer finden auf verschiedenen
+Wegen Berücksichtigung: Die von Seiten der Ministerien
+gewünschten Veränderungen im bestehenden Erhebungsprogramm
+lassen sich auf nationaler Ebene mittels Gesetzesänderungen
+umsetzen. Darüber hinaus sind die Bundesministerien, die
+Statistischen Ämter der Länder, die kommunalen
+Spitzenverbände sowie Vertreter aus Wirtschaft und
+Wissenschaft im Statistischen Beirat vertreten, der nach §
+4 BStatG das Statistische Bundesamt in Grundsatzfragen
+berät. Fachspezifische Fragen oder Anregungen werden dabei
+in den vom Statistischen Beirat eingesetzten Fachausschuss
+"Bevölkerungsstatistiken" eingebracht.
+Um dem Nutzerbedarf gerecht zu werden, wurde die
+Bevölkerungsfortschreibung mit der Umstellung auf den
+Zensus 2011 beim Merkmal "Staatsangehörigkeit" von
+deutsch/nichtdeutsch auf Einzelstaatsangehörigkeiten
+erweitert.
+
+
+3  Methodik
+===========
+
+3.1 Konzept der Datengewinnung
+Die Bevölkerungsfortschreibung ist ein Rechensystem: Nach §
+5 BevStatG erfolgt auf Basis des jeweils letzten Zensus
+(2011) die Fortschreibung des Bevölkerungsstandes insgesamt
+sowie nach Alter und Geschlecht anhand statistischer
+Ergebnisse über die natürlichen Bevölkerungsbewegungen
+(Geburten, Sterbefälle) sowie über die räumlichen
+Bevölkerungsbewegungen (Wanderungen über die
+Gemeindegrenzen), die aufgrund von Verwaltungsdaten
+erstellt wurden. Die Grunddaten für die Statistiken der
+Geburten und Sterbefälle werden von den Standesämtern
+geliefert. Dabei erfolgt die regionale Zuordnung nach dem
+Wohnort der Mutter für die Geborenen bzw. dem Wohnort des
+Gestorbenen. Die Grunddaten der Wanderungsstatistik werden
+von den Meldebehörden geliefert (siehe auch jeweilige
+Qualitätsberichte der genannten Statistiken).
+Für die Fortschreibung nach Staatsangehörigkeit werden
+zusätzlich Angaben zu Staatsangehörigkeitswechseln
+benötigt. Bis 2013 wurden entweder Daten der Meldebehörden
+über Staatsangehörigkeitswechsel oder der
+Einbürgerungsbehörden nach Landesrecht verwendet. Ab 2014
+werden bundesweit einheitlich Daten der Meldebehörden über
+Staatsangehörigkeitswechsel herangezogen.
+Für die Fortschreibung nach dem Familienstand werden
+zusätzliche Daten über Eheschließungen und Ehelösungen und
+ab 2011 über die Begründung (bis einschließlich 2018) und
+Aufhebung von Lebenspartnerschaften verwendet. Die
+Grunddaten für die Eheschließungen und bis 2018 -
+Begründung von Lebenspartnerschaften werden von den
+Standesämtern geliefert. Dabei erfolgt die regionale
+Zuordnung nach dem angegebenen Wohnort der Eheleute. Für
+Änderungen des Familienstandes infolge von Ehelösungen und
+Aufhebung von Lebenspartnerschaften werden Daten von den
+Meldebehörden herangezogen.
+
+3.2 Vorbereitung und Durchführung der Datengewinnung
+Die Erhebung der in die Berechnung der
+Bevölkerungsfortschreibung einfließenden Daten von den
+jeweils berichtspflichtigen Verwaltungen wird als laufende
+Vollerhebung im Rahmen der Erstellung der Statistiken der
+Bevölkerungsbewegungen durch die Statistischen Ämter der
+Länder durchgeführt (siehe jeweilige Qualitätsberichte).
+
+3.3 Datenaufbereitung (einschließlich Hochrechnung)
+Die Einzeldatensätze der in die Fortschreibung einfließenden
+Statistiken werden der entsprechenden Kohorte hinzugezählt
+(Geburten, Zuzüge) bzw. abgezogen (Sterbefälle, Fortzüge).
+Bei einem Staatsangehörigkeitswechsel wird in der Kohorte
+der alten Staatsangehörigkeit eine Person rechnerisch
+abgezogen und in der Kohorte mit der neuen
+Staatsangehörigkeit eine Person zugebucht. Bei einer
+Änderung des Familienstandes wird analog verfahren. Es wird
+vorab in allen einfließenden Statistiken sichergestellt,
+dass alle von der Bevölkerungsfortschreibung zur
+Identifizierung der Kohorten benötigten Angaben in allen
+Datensätzen befüllt sind. Dafür werden ggf. fehlende
+Angaben durch Nachfrage bei der berichtspflichtigen
+Verwaltung vervollständigt oder imputiert (siehe dazu die
+jeweiligen Qualitätsberichte).
+Altfälle im Sinne von Bewegungen, die sich vor dem Vorjahr
+des Berichtsjahrs ereignet haben, aber im laufenden Jahr an
+die Statistik geliefert wurden, werden seit 2016 in der
+jeweiligen Bewegung nicht berücksichtigt, aber fließen als
+Korrektur in die Bevölkerungsfortschreibung ein.
+Korrekturen, die von den Meldebehörden bzw. Standesämtern zu
+zuvor gelieferten Daten mitgeteilt werden, werden zum
+frühest möglichen Zeitpunkt berücksichtigt. Eine
+rückwirkende Korrektur der Bevölkerungszahlen erfolgt
+jedoch nicht.
+Die Einwohnerzahlen und die verschiedenen Untergliederungen
+ergeben sich aus der Aggregation der Kohorten. Das
+Statistische Bundesamt stellt aus den Länderergebnissen
+durch Addition das Bundesergebnis zusammen.
+Nach einer Gebietsänderung werden für die Erstellung des
+Jahresmaterials alle eingeflossenen Datensätze mit dem
+alten Gebietsschlüssel auf den neuen Gebietsschlüssel
+umgeschlüsselt und die Bevölkerung am Jahresanfang anhand
+dieser Daten nach dem neuen Gebietsstand zurückgerechnet.
+Dies ermöglicht die Erstellung von Jahresergebnissen nach
+einem einheitlichen Gebietsstand.
+Da es sich um eine Berechnung aufgrund von Vollerhebungen
+handelt, entfällt eine Hochrechnung.
+Bei der Berechnung der Bevölkerungsfortschreibung werden die
+Bevölkerungsbewegungen mit Ereignisdatum (je nach
+Statistik: Geburtsdatum, Sterbedatum, Datum des Zu- bzw.
+Fortzugs) nach dem letzten jeweiligen Zensus
+berücksichtigt. Bevölkerungsbewegungen mit einem
+Ereignisdatum vor dem letzten Zensus werden aussortiert, da
+angenommen wird, dass der Fehlbestand oder die Karteileiche
+durch den Zensus aufgedeckt und bereinigt wurde.
+Seit dem 1.1.2016 werden Zu- und Fortzüge von Deutschen von
+bzw. nach "Unbekannt/ohne Angabe" in der
+Wanderungsstatistik verbucht und fließen somit in die
+Berechnung der Einwohnerzahlen ein. Zuvor blieben sie in
+der Wanderungsstatistik und damit auch in der
+Bevölkerungsfortschreibung weitgehend unberücksichtigt.
+
+3.4 Preis- und Saisonbereinigung, andere Analyseverfahren
+Die Ergebnisse der Bevölkerungsfortschreibung werden nicht
+kalender- oder saisonbereinigt. Im Fokus stehen die
+absoluten Zahlen und die Entwicklung im letzten Jahr oder
+Quartal.
+
+3.5 Beantwortungsaufwand
+Die Berechnung der Fortschreibung des Bevölkerungsstands
+wird auf der Grundlage der Ergebnisse bereits erhobener
+Statistiken durchgeführt, daher entsteht kein unmittelbarer
+Beantwortungsaufwand.
+
+
+4  Genauigkeit und Zuverlässigkeit
+==================================
+
+4.1 Qualitative Gesamtbewertung der Genauigkeit
+Die Ergebnisse der Bevölkerungsfortschreibung werden im
+Rahmen eines einheitlichen Verbuchungsverfahrens mit von
+den Statistischen Ämtern der Länder geprüften Daten
+erstellt. Die Qualität der Bevölkerungsfortschreibung hängt
+wesentlich von der Qualität (Vollständigkeit, Genauigkeit)
+der in die Berechnung eingehenden statistischen Ergebnisse
+ab. Die Qualität dieser Daten hängt wiederum von der
+Qualität der Datenlieferung und Registerführung der
+berichtspflichtigen Behörden (Meldeämter, Standesämter)
+sowie von der Einhaltung der melderechtlichen Vorschriften
+durch die Bürger ab. Unter den aktuellen Rahmenbedingungen
+stellt die Bevölkerungsfortschreibung zwischen zwei
+Volkszählungen die einzige kohärente Methode dar, um
+laufend die Zahl und die demografischen Strukturen der
+Bevölkerung zu ermitteln. Die Qualität der
+zugrundeliegenden Statistiken, insbesondere für die
+fortschreibungsrelevanten Merkmale, wird allgemein als gut
+eingeschätzt. Jedoch erfordert die
+Bevölkerungsfortschreibung eine regelmäßige Neujustierung
+durch eine Bestandsaufnahme in Form eines neuen Zensus. Mit
+wachsendem zeitlichem Abstand zum letzten Zensus kommt es
+zu Ungenauigkeiten (Über- oder Untererfassungen in
+einzelnen Bevölkerungsgruppen) in den Ergebnissen der
+Bevölkerungsfortschreibung.
+Eine globale Einschätzung der Genauigkeit der
+Bevölkerungsfortschreibung liefert der Vergleich der
+Bevölkerungszahlen vor und nach dem Zensus 2011. Dieser
+Vergleich zeigt, dass nach mehr als 20 Jahren ohne
+Neujustierung die Bevölkerungsfortschreibung die
+demografischen Strukturen weitgehend korrekt abgebildet hat
+und bundesweit insgesamt um weniger als 2% angepasst werden
+musste. Somit wird die Qualität der
+Bevölkerungsfortschreibung auf Bundes- und Landesebene als
+sehr gut eingeschätzt. Der Anpassungsbedarf fiel regional
+in manchen Gemeinden sowie für manche Bevölkerungsgruppen
+höher aus. So lag die Differenz für die ausländische
+Bevölkerung bundesweit bei ca. 15%. Der Vergleich deutet
+daraufhin, dass die Bevölkerungsfortschreibung für
+besonders mobile Bevölkerungsgruppen ungenauer ist.
+
+4.2 Stichprobenbedingte Fehler
+Da es sich um eine Vollerhebung handelt, können
+stichprobenbedingte Fehler nicht vorkommen.
+
+4.3 Nicht-Stichprobenbedingte Fehler
+Zugänge oder Abgänge werden nicht gebucht, wenn Geburten,
+Sterbe- oder Wanderungsfälle keinen Eingang in die
+jeweilige Statistik gefunden haben. So führen
+beispielsweise unterlassene Abmeldungen bei einem Fortzug
+ins Ausland zu einer Übererfassung der in Deutschland
+lebenden Bevölkerung. Allerdings melden die Meldebehörden
+regelmäßig nicht erreichbare Personen von Amts wegen nach
+Unbekannt ab. Diese Abmeldungen werden den statistischen
+Ämtern im Rahmen der Wanderungsstatistik mitgeteilt. In
+diesen Fällen gibt es eine Unschärfe, ob die Person noch in
+Deutschland lebt oder ins Ausland fortgezogen ist. Bei
+Ausländern gilt die Annahme, dass sie ins Ausland
+fortgezogen sind. Ab 2016 wurde die Methode für die
+Deutschen weiterentwickelt und nach Unbekannt abgemeldete
+Deutsche werden nicht mehr zur Bevölkerung gezählt.
+
+4.4 Revisionen
+4.4.1 Revisionsgrundsätze
+Regelmäßige Revisionen finden nicht statt, es werden in der
+Regel nur endgültige Ergebnisse bereitgestellt.
+Lediglich bei Umstellung auf ein neues Basisjahr im
+Anschluss an einem Zensus finden Revisionen statt, da die
+Zensusergebnisse zeitverzögert nach dem Stichtag zur
+Verfügung stehen. Die Revision betrifft die Zahlen, die
+nach dem Zensusstichtag auf Grundlage des vorherigen Zensus
+veröffentlicht wurden.
+
+4.4.2 Revisionsverfahren
+Nach den Volkszählungen 1970 und 1987 im früheren
+Bundesgebiet wurden Eckzahlen der durchschnittlichen
+Bevölkerung für den Zeitraum zwischen den Volkszählungen
+auf Bundesebene zurückgerechnet.
+Eine Revision fand zuletzt bedingt durch den Zensus 2011 für
+die Berichtsjahre 2011-2013 statt.
+Rückrechnung: Eine vollständige Rückrechnung mit allen
+Untergliederungen erfolgte nach der Umstellung auf den
+Zensus 2011 nur bis zum Stichtag 01.01.2011. Zudem wurde
+eine Rückrechnung der Bevölkerungseckzahlen auf Grundlage
+des Zensus 2011 zu methodischen Zwecken zurück bis 1991
+vorgenommen. Die Ergebnisse der Rückrechnung dienen
+ausschließlich der Anpassung von statistischen Zeitreihen
+und Ergebnissen; sie stellen aber keine offizielle Revision
+der bisherigen Einwohnerzahlen bis Berichtsjahr 2010 dar.
+Mit dem Zensus zum 15. Mai 2022 steht eine Umstellung der
+Bevölkerungsfortschreibung auf einen neuen Anfangsbestand
+an. Die Ergebnisse zum 31.12.2021 sind final und werden in
+diesem Zusammenhang nicht revidiert.
+
+4.4.3 Revisionsanalysen
+Für Analysen der Auswirkung des Zensus auf die
+Bevölkerungszahlen und die demografischen Strukturen stehen
+für die Jahre 2010, 2011, 2012 und 2013
+Fortschreibungsergebnisse auf Grundlage der Volkszählung
+1987 bzw. der Auszählung des Einwohnerregisters der
+ehemaligen DDR zum 03.10.1990 sowie
+Fortschreibungsergebnisse auf Grundlage des Zensus 2011 auf
+Anfrage zur Verfügung.
+
+
+5  Aktualität und Pünktlichkeit
+===============================
+
+5.1 Aktualität
+Monatliche Ergebnisse sind ca. 4 Monate nach Monatsende für
+die Monate Januar bis November bzw. nach 6 Monaten für den
+Monat Dezember mit dem Stichtag 31.12. verfügbar. Die
+ersten Jahresergebnisse (Jahresdurchschnitt und -bilanzen)
+liegen bis Ende Juni des jeweiligen Folgejahres vor.
+
+5.2 Pünktlichkeit
+Die Ergebnisse 2021 wurden pünktlich veröffentlicht.
+
+
+6  Vergleichbarkeit
+===================
+
+6.1 Räumliche Vergleichbarkeit
+Die Daten werden weitgehend mit einer einheitlichen Methode
+und einem einheitlichen Verfahren aufbereitet, sodass die
+räumliche Vergleichbarkeit innerhalb von Deutschland als
+sehr gut eingeschätzt wird.
+Auf europäischer Ebene sind die verwendeten Datenquellen und
+Erhebungsmethoden nicht einheitlich. Die europäischen
+Verordnungen EG 862/2007 und EU 1260/2013 sehen für
+Datenlieferungen an Eurostat die Definition der Bevölkerung
+am üblichen Aufenthaltsort (siehe 2.1.3) vor, lassen aber
+alternative Abgrenzungen zu, so dass eine uneingeschränkte
+Vergleichbarkeit nicht gegeben ist. Eine strengere
+Definition und höhere Vergleichbarkeit gelten allerdings
+für die Berechnung der nationalen Bevölkerung für
+europäische Zwecke nach Artikel 4 der Verordnung EU
+1260/2013 (u. a. Festlegung der qualifizierten Mehrheit in
+der EU). Für diese Zahl wird in Deutschland eine spezielle
+Berechnung durchgeführt (siehe Punkt 2.1.3).
+
+6.2 Zeitliche Vergleichbarkeit
+Für den Zeitraum vor 1950 sind nur Daten für die jeweiligen
+Volkszählungsjahre verfügbar, allerdings ist der
+zugrundeliegende Gebietsstand nicht immer klar definiert.
+Seit 1950 liegen die Zeitreihen zur
+Bevölkerungsfortschreibung vor. In der ehemaligen DDR wurde
+von 1950 bis 1990 ebenfalls der Bevölkerungsstand zwischen
+den Volkszählungen fortgeschrieben, wobei vor 1991 nicht
+alle Untergliederungen für die neuen Bundesländer und
+Berlin-Ost vollständig vorliegen.
+Brüche in der Zeitreihe können sich nach Volkszählungen bzw.
+Zensus ergeben. Diese fanden im früheren Bundesgebiet in
+1950, 1956 (Gebäude- und Wohnungszählung), 1961, 1970 und
+1987 statt. In der ehemaligen DDR lieferten die
+Volkszählungen in 1950, 1964, 1970 und 1981 sowie eine
+Auszählung des zentralen Einwohnerregisters zum 03.10.1990
+die Grundlage der Bevölkerungsfortschreibung. Der letzte
+für die aktuelle Bevölkerungsfortschreibung relevante
+Zensus fand im Jahr 2011 zum Stichtag 9. Mai statt. Der
+Zensus 2022 zum Stichtag 15. Mai wird ab dem Berichtsjahr
+2022 für die Bevölkerungsfortschreibung relevant.
+Infolge der technischen Umstellungen der räumlichen und
+natürlichen Bevölkerungsbewegungen ab 2016 wurde die
+methodische Behandlung der Abmeldungen nach Unbekannt von
+Deutschen abgeändert (siehe auch Qualitätsbericht der
+Wanderungsstatistik). Seit 2016 werden Abmeldungen nach
+Unbekannt von Deutschen berücksichtigt, da eine korrekte
+Verarbeitung bei einer anschließenden Wiederanmeldung, die
+vorher nicht möglich war, seit 2016 erfolgen kann. Seitdem
+zählen nach Unbekannt abgemeldete Deutsche nicht mehr zur
+Bevölkerung.
+Eine weitere Änderung betraf die Verbuchung der Altfälle
+(Siehe 3.3). Seit 2016 werden diese nicht mehr in den
+Bewegungen, sondern als Korrektur berücksichtigt. Somit ist
+die Vergleichbarkeit der Bilanzen ab 2016 mit den Jahren
+davor eingeschränkt.
+Während der technischen Umstellungen waren in 2016 und 2017
+Änderungen bei der Methode der Zuordnung der in die
+Bevölkerungsfortschreibung einfließenden Bewegungen zu
+Berichtsmonaten unvermeidlich (siehe auch Qualitätsbericht
+der Wanderungsstatistik), die zu einem Vorzieheffekt
+geführt haben. Dieser Vorzieheffekt betrifft Bewegungen,
+die in 2016 oder früher stattgefunden haben aber erst 2017
+(bis Mai) an die Statistik geliefert wurden. Diese
+Bewegungen wurden im Berichtsjahr 2016 berücksichtigt,
+sodass mehr Bewegungen in 2016 und weniger Bewegungen in
+2017 verarbeitet wurden als nach den üblichen Regeln.
+Dadurch sind die Bilanzen 2017 eingeschränkt vergleichbar
+mit den Bilanzen 2018, die diesem Sondereffekt nicht
+unterliegen. Diese Einschränkung gilt nicht mehr für den
+Vergleich von 2018 mit den Folgejahren.
+Bei Zeitvergleichen der Ergebnisse der
+Bevölkerungsfortschreibung auf regionaler Ebene sind die
+auf Grund von Veränderungen des Gebietsstands eingetretenen
+Änderungen zu beachten. So sind beispielsweise die
+regionalen Ergebnisse mit den Vorjahresergebnissen nur
+bedingt vergleichbar, wenn es im Berichtsjahr umfangreiche
+Gebietsänderungen bspw. eine Gebietsreform gegeben hat. Da
+Änderungen für größere regionale Einheiten (z. B.
+Bundesländer) sehr selten sind, ist die zeitliche
+Vergleichbarkeit für diese Ebene nicht betroffen.
+
+
+7  Kohärenz
+===========
+
+7.1 Statistikübergreifende Kohärenz
+Bei der Berechnung der durchschnittlichen Bevölkerung nach
+Altersgruppen können Rundungsdifferenzen zwischen den vom
+Statistischen Bundesamt und von den Statistischen Ämtern
+der Länder veröffentlichten Länderergebnissen auftreten.
+Sowohl die Ausländerstatistik als auch die Fortschreibung
+des Bevölkerungsstandes veröffentlichen Zahlen zur
+ausländischen Bevölkerung in Deutschland. Der Zweck beider
+Statistiken unterscheidet sich jedoch. Während die
+Bevölkerungsfortschreibung die Struktur der ausländischen
+Bevölkerung in Zusammenhang mit der gesamten bzw. mit der
+deutschen Bevölkerung betrachtet, liefert die
+Ausländerstatistik Merkmale (Staatsangehörigkeit in
+regionaler Gliederung bis auf Kreisebene, Aufenthaltsdauer,
+Aufenthaltsstatus), die in der Fortschreibung nicht bzw.
+erst seit dem Zensus 2011 verfügbar sind.
+Die Ausländerstatistik liefert Angaben zur ausländischen
+Bevölkerung aufgrund einer Auszählung des
+Ausländerzentralregisters (AZR). Die Bestandszahlen über
+Ausländer gemäß den Auswertungen des AZR und den
+Ergebnissen der Bevölkerungsfortschreibung weichen infolge
+unterschiedlicher inhaltlicher Abgrenzungen voneinander ab.
+In der Bevölkerungsfortschreibung werden alle ausländischen
+Personen gezählt, die bei den Meldebehörden registriert
+sind. Grundsätzlich müssten die Ausländerzahlen aus dem AZR
+niedriger als diejenigen aus der Bevölkerungsfortschreibung
+sein, da das AZR nur in Deutschland lebenden Ausländer
+erfasst, die nicht nur vorübergehend in Deutschland sind.
+So erfasst das AZR nur Ausländer, die sich länger als 3
+Monate in Deutschland aufhalten oder einen Aufenthaltstitel
+beantragt haben. Zwar besteht ebenso im Meldewesen keine
+Meldepflicht für kurzfristige Aufenthalte (ab November 2015
+bundesweit weniger als 3 Monate), Anmeldungen für
+kurzfristige Aufenthalte (z.B. von Saisonarbeitern) werden
+jedoch registriert. Vor allem schränken aber Unterschiede
+in Berichtsweg, Erfassungszeitpunkt in Meldewesen und
+Ausländerzentralregister sowie in erfolgte
+Registerbereinigungen und statistische Bereinigungen im
+Rahmen des Zensus die Vergleichbarkeit der Ergebnisse der
+aus diesen beiden Quellen nachgewiesenen ausländischen
+Bevölkerung ein.
+
+7.2 Statistikinterne Kohärenz
+Die Bestandsdaten zur Bevölkerung aus der
+Bevölkerungsfortschreibung bilden zusammen mit den Daten
+der natürlichen Bevölkerungsbewegung und der
+Wanderungsstatistik ein konsistentes Zahlenwerk, da sie
+einheitliche Definitionen, Abgrenzungen und
+Klassifikationen nutzen.
+
+7.3 Input für andere Statistiken
+Die Ergebnisse der Bevölkerungsfortschreibung gehen in die
+Berechnung von Kennzahlen wie Geburtenziffern,
+Sterbetafeln, Heiratsziffern u. ä. ein und bilden die
+Grundlage für die regelmäßig durchgeführten amtlichen
+Bevölkerungsvorausberechnungen. Außerdem sind die
+Bestandszahlen die Basis für die Hochrechnung der
+Stichprobenergebnisse von Haushaltserhebungen. Zudem
+fließen sie als Bezugsgröße in viele anderen Statistiken
+ein (Einkommen pro Kopf u. Ä.).
+
+
+8  Verbreitung und Kommunikation
+================================
+
+8.1 Verbreitungswege
+- Pressemitteilungen:
+Die Erstveröffentlichung der Jahresergebnisse erfolgt im
+Rahmen einer Pressemitteilung.
+
+- Veröffentlichungen:
+Jährliche Fachserie, www.destatis.de.
+
+- Online-Datenbank:
+Ergebnisse der Statistik können in GENESIS-Online
+(www.destatis.de/genesis) unter dem Statistik-Code 12411
+abgerufen werden.
+
+- Zugang zu Mikrodaten:
+Daten liegen im Forschungsdatenzentrum vor, jedoch nicht für
+jedes Jahr.
+
+- Sonstige Verbreitungswege:
+Daten auf Gemeindeebene liegen in den Statistischen
+Landesämtern vor und werden von diesen veröffentlicht.
+
+8.2 Methodenpapiere/Dokumentation der Methodik
+Dr. Wolfhard Kaus, Rabea Mundil-Schwarz: Die Ermittlung der
+Einwohnerzahlen und der demografischen Strukturen nach dem
+Zensus 2011, in Wirtschaft und Statistik, 2015, Nr. 4, 
+S. 18-38.
+Ausgangsdaten der Bevölkerungsfortschreibung aus dem Zensus
+2011 (www.destatis.de).
+
+8.3 Richtlinien der Verbreitung
+- Veröffentlichungskalender:
+Die Termine zur Veröffentlichung der Quartalsergebnisse der
+Bevölkerungsfortschreibung sind im
+Veröffentlichungskalender eingetragen.
+
+- Zugriff auf den Veröffentlichungskalender:
+www.destatis.de
+
+- Zugangsmöglichkeiten:
+Die Veröffentlichung der Bevölkerungsfortschreibung richtet
+sich nicht ausschließlich an bestimmte Nutzergruppen. Die
+Daten stehen allen Nutzern zum selben Zeitpunkt zur
+Verfügung.
+
+8.4 Kontaktinformation 
+Statistisches Bundesamt
+Gustav-Stresemann-Ring 11
+65189 Wiesbaden
+
+Tel: +49 (0) 611 / 75 4865
+www.destatis.de/kontakt
+
+
+© Statistisches Bundesamt, Wiesbaden 2022</genml:TEXT></genml:EXPLANATION><genml:FREQUENCIES><genml:FREQUENCY-OBJECT><genml:FREQUENCY>MONTHLY</genml:FREQUENCY><genml:VALIDITY><genml:FROM>1950-01-01</genml:FROM></genml:VALIDITY></genml:FREQUENCY-OBJECT></genml:FREQUENCIES><genml:CUBE-COUNT>0</genml:CUBE-COUNT></genml:STATISTICS></genml:STATS><genml:MEASURE-UNITS><genml:MEASURE-UNIT NAME="Anzahl" EXTRACTED="2022-10-10T11:10:39" MODIFIED="2013-03-11T10:03:49" CREATED="2002-01-31T12:01:56"><genml:DISPLAY-TEXT><genml:TEXT LANG="en">number</genml:TEXT><genml:TEXT LANG="de">Anzahl</genml:TEXT></genml:DISPLAY-TEXT><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Number</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Anzahl</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TYPE>QUANTITY</genml:TYPE><genml:MARK> </genml:MARK><genml:IDENT>2</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION></genml:MEASURE-UNIT></genml:MEASURE-UNITS><genml:FUNCTIONS></genml:FUNCTIONS><genml:VALUE-ASSOCS><genml:VALUE-ASSOC TMP-LOCK="N" EXTRACTED="2022-10-10T11:10:39" MODIFIED="2016-01-22T14:01:05"><genml:VARIABLE NAME="DINSG"></genml:VARIABLE><genml:VALUE NAME="DG"></genml:VALUE><genml:POSITION-NUMBER>0</genml:POSITION-NUMBER></genml:VALUE-ASSOC></genml:VALUE-ASSOCS><genml:RULES></genml:RULES><genml:HISTORICAL-EVENTS-ASSOC></genml:HISTORICAL-EVENTS-ASSOC></genml:METADATA></genml:STATISTICAL-DATA><genml:META-INFOS><genml:META-INFO NAME="EXP-INFO" EXTRACTED="2022-10-10T11:10:39"><genml:COPYRIGHT><genml:TEXT LANG="en">© Federal Statistical Office, Wiesbaden 2022</genml:TEXT><genml:TEXT LANG="de">© Statistisches Bundesamt (Destatis), 2022</genml:TEXT></genml:COPYRIGHT><genml:OPERATOR><genml:TEXT LANG="en">Federal Statistical Office</genml:TEXT><genml:TEXT LANG="de">Statistisches Bundesamt Wiesbaden, Deutschland</genml:TEXT></genml:OPERATOR></genml:META-INFO></genml:META-INFOS><genml:META-INFO-ASSOC></genml:META-INFO-ASSOC></genml:GENESIS>
